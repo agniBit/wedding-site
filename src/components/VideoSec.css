@@ -1,0 +1,13 @@
+.videosec{
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+
+
+.vd{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+}

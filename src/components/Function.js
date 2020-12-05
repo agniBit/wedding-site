@@ -3,6 +3,7 @@ import './Functions.css';
 function Function(props) {
   return (
       <div className='fun_container'>
+          <h1>{props.fun_name}</h1>
           <div className='fun_img_wrap'>
             <img src={props.imageName} className='fun_img' />
           </div>

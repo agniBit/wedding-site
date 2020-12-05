@@ -6,6 +6,7 @@ function Functions() {
       <div className='functions' id='functions'>
           <div className='mehendi'>
             <Function
+                fun_name='MEHENDI'
                 imageName='images/v.jpg'
                 date='11 Dec, 2020'
                 time='5:30pm'
@@ -16,6 +17,7 @@ function Functions() {
 
           <div className='sangeet'>
             <Function
+                fun_name='SANGEET'
                 imageName='images/v.jpg'
                 date='11 Dec, 2020'
                 time='5:30pm'
@@ -26,6 +28,7 @@ function Functions() {
 
           <div className='haldi'>
           <Function
+                fun_name='HALDI'
                 imageName='images/v.jpg'
                 date='11 Dec, 2020'
                 time='5:30pm'
@@ -36,6 +39,7 @@ function Functions() {
 
           <div className='wedding'>
             <Function
+                fun_name='WEDDING'
                 imageName='images/v.jpg'
                 date='11 Dec, 2020'
                 time='5:30pm'
@@ -46,6 +50,7 @@ function Functions() {
 
           <div className='vidai'>
             <Function
+                fun_name='VIDAI'
                 imageName='images/v.jpg'
                 date='11 Dec, 2020'
                 time='5:30pm'
