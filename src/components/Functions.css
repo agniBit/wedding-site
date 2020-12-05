@@ -1,0 +1,22 @@
+.fun_container{
+    padding: 50px;
+    justify-content: center;
+    text-align: center;
+}
+
+.fun_img_wrap{
+    width: 100%;
+    padding: 0;
+    justify-content: center;
+}
+.fun_img{
+    height: auto;
+    width:300px;
+    object-fit: contain;
+    justify-content: center;
+}
+
+h4{
+    margin: 0;
+    padding: 0;
+}
