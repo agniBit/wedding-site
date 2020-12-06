@@ -12,7 +12,7 @@ function Navbar() {
   })
 
   return (
-    <nav className= { nav_up ? 'navbar' : 'navbar nav-up'}>
+    <nav className= { nav_up ? 'navbar' : 'navbar-up'}>
       <div className='nav-list'>
         <div className="nav-item">
           Home

@@ -15,10 +15,20 @@
     transition: .5s;
   }
 
-.navbar-up{
-  padding-top: 0!important;
-  transition: .5s;
-}
+  .navbar-up {
+    left: 0;
+    right: 0;
+    /* padding-top: 50px; */
+    background: #720000;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    transition: .5s;
+  }
   
 .nav-list{
   width: 70%;

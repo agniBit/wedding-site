@@ -2,7 +2,7 @@
     text-align: center;
 }
 .fun_container{
-    padding: 50px;
+    padding: 20px;
     justify-content: center;
     text-align: center;
 }
@@ -19,7 +19,12 @@
     justify-content: center;
 }
 
-h4{
+.container-icon-details{
+    display: flex;
+    justify-content: center;
+}
+
+.container-icon-details h4{
     margin: 0;
-    padding: 0;
+    padding-left: 10px;
 }

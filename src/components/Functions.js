@@ -6,21 +6,11 @@ function Functions() {
       <div className='functions' id='functions'>
         <img src='images/separator.png' id='sep_top' />
         <h1>FUNCTIONS</h1>
-          <div className='mehendi'>
-            <Function
-                fun_name='MEHENDI'
-                imageName='images/v.jpg'
-                date='11 Dec, 2020'
-                time='5:30pm'
-                addr1='MJ palace'
-                addr2='Kannauj'
-            />
-          </div>
 
           <div className='sangeet'>
             <Function
                 fun_name='SANGEET'
-                imageName='images/v.jpg'
+                imageName='images/sangeet.webp'
                 date='11 Dec, 2020'
                 time='5:30pm'
                 addr1='MJ palace'
@@ -31,7 +21,7 @@ function Functions() {
           <div className='haldi'>
           <Function
                 fun_name='HALDI'
-                imageName='images/v.jpg'
+                imageName='images/haldi.jpg'
                 date='11 Dec, 2020'
                 time='5:30pm'
                 addr1='MJ palace'
@@ -42,7 +32,7 @@ function Functions() {
           <div className='wedding'>
             <Function
                 fun_name='WEDDING'
-                imageName='images/v.jpg'
+                imageName='images/wedding.webp'
                 date='11 Dec, 2020'
                 time='5:30pm'
                 addr1='MJ palace'
@@ -53,7 +43,7 @@ function Functions() {
           <div className='vidai'>
             <Function
                 fun_name='VIDAI'
-                imageName='images/v.jpg'
+                imageName='images/VIDAI-CEREMONY.jpg'
                 date='11 Dec, 2020'
                 time='5:30pm'
                 addr1='MJ palace'

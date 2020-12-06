@@ -9,16 +9,28 @@ function Function(props) {
           </div>
           <div className='fun_details'>
               <div className='fun_date'>
+                <div className='container-icon-details'>
+                  <i class="fa fa-calendar" aria-hidden="true"></i>
                   <h4>{props.date}</h4>
+                </div>
               </div>
               <div className='fun_time'>
-                  <h4>{props.time}</h4>
+              <div className='container-icon-details'>
+                <i class="far fa-clock"></i>
+                <h4>{props.time}</h4>
+                </div>
               </div>
               <div className='fun_add1'>
-                  <h4>{props.addr1}</h4>
+              <div className='container-icon-details'>
+                <i class="fa fa-home" aria-hidden="true"></i>
+                <h4>{props.addr1}</h4>
+                </div>
               </div>
               <div className='fun_addr2'>
-                  <h4>{props.addr2}</h4>
+              <div className='container-icon-details'>
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <h4>{props.addr2}</h4>
+                </div>
               </div>
           </div>
       </div>
