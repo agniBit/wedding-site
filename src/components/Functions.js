@@ -4,6 +4,8 @@ import Function from './Function';
 function Functions() {
   return (
       <div className='functions' id='functions'>
+        <img src='images/separator.png' id='sep_top' />
+        <h1>FUNCTIONS</h1>
           <div className='mehendi'>
             <Function
                 fun_name='MEHENDI'
@@ -58,6 +60,7 @@ function Functions() {
                 addr2='Kannauj'
             />
           </div>
+        <img src='images/separator.png' id='sep_bottom' />
       </div>
   );
 }

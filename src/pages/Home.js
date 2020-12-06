@@ -1,6 +1,9 @@
 import React from 'react';
 import '../App.css';
+import Banner from '../components/Banner';
 import Functions from '../components/Functions';
+import Gallery from '../components/Gallery';
+import Navbar from '../components/Navbar';
 import RSVP from '../components/RSVP';
 import VideoSec from '../components/VideoSec';
 
@@ -8,10 +11,12 @@ function Home() {
   return (
     // <Functions />
     <>
-    <h1> hi</h1>
-    <Functions />
-    <VideoSec />
-    <RSVP />
+      <Banner />
+      <Navbar />
+      <Functions />
+      <VideoSec />
+      {/* <RSVP /> */}
+      <Gallery />
     </>
   );
 }

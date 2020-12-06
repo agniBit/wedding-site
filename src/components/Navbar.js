@@ -13,23 +13,23 @@ function Navbar() {
 
   return (
     <nav className= { nav_up ? 'navbar' : 'navbar nav-up'}>
-      <ul className='nav-list'>
-        <li>
+      <div className='nav-list'>
+        <div className="nav-item">
           Home
-        </li>
-        <li>
+        </div>
+        <div className="nav-item">
           OUR STORY
-        </li>
-        <li>
+        </div>
+        <div className="nav-item">
           RSVP
-        </li>
-        <li>
+        </div>
+        <div className="nav-item">
           FUNCTIONS
-        </li>
-        <li>
+        </div>
+        <div className="nav-item">
           GALLERY
-        </li>
-      </ul>
+        </div>
+      </div>
     </nav>
   );
 }

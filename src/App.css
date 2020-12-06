@@ -1,8 +1,7 @@
-#root{
-  background: #a4091a;
+*{
+  text-align: center;
   color: white;
 }
-
 .bdr{
   width:20px;
   height: 100%;

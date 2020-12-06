@@ -1,0 +1,27 @@
+#banner{
+    text-align: center;
+    /* height: 100vh; */
+}
+
+.dec_top{
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    height: 30vh;
+}
+
+.dec_bottom{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    transform: rotate(180deg);
+    height: 30vh;
+}
+
+.dec_top_img{
+    top:px;
+}
+
+.dec_bottom_img{
+
+}
