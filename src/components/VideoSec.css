@@ -8,6 +8,13 @@
 .vd{
     display: flex;
     justify-content: center;
-    width: 60%;
+    width: 62%;
     margin: auto;
 }
+
+
+@media screen and (max-width: 600px) {
+    .vd{
+        width:100%;
+    }
+  }

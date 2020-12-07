@@ -13,11 +13,11 @@
     padding: 0;
     justify-content: center;
 }
+
 .fun_img{
-    height: auto;
-    width:300px;
-    object-fit: contain;
-    justify-content: center;
+    height: 225px;
+    width:400px;
+    object-fit: cover;
 }
 
 .container-icon-details{
@@ -29,3 +29,29 @@
     margin: 0;
     padding-left: 10px;
 }
+
+@media screen and (max-width: 600px) {
+    .fun_ul{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container-icon-details i{
+        float:left;
+    }
+
+    .container-icon-details h4{
+        float:right;
+    }
+
+    .fun_img{
+        height: 160px;
+        width:100%;
+        object-fit: cover;
+    }
+
+    .fun_container{
+        padding: 0px;
+    }
+  }

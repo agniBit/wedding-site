@@ -44,3 +44,13 @@
   padding: 10px;
   margin: auto;
 }
+
+
+@media screen and (max-width: 600px) {   
+  .navbar{
+    display: none;
+  }
+  .navbar-up{
+    display: none;
+  }
+}

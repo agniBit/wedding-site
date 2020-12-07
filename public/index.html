@@ -33,7 +33,12 @@
     />
     
     <title>React App</title>
-    <style>       
+    <style>    
+    
+    @font-face {
+          font-family: c_font;
+          src: url(AlexBrush-Regular.ttf);
+      }
       #root {
         left: 0px;
         top: 0px;
@@ -44,10 +49,20 @@
         border: 60px solid #720000;
         border-image: url(images/v.jpg) 60 round;
       }
-      @font-face {
-          font-family: c_font;
-          src: url(AlexBrush-Regular.ttf);
+
+      @media screen and (max-width: 600px) {  
+        #root {
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        /* bottom: 0px; */
+        position: absolute;
+        background: #720000;
+        border: 40px solid #720000;
+        border-image: url(images/v.jpg) 60 round;
       }
+      }
+      
     </style>
   </head>
   <body>
