@@ -1,6 +1,7 @@
 *{
   text-align: center;
   color: white;
+  scroll-behavior: smooth;
 }
 .bdr{
   width:20px;

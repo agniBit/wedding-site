@@ -2,7 +2,7 @@ import React from 'react';
 import  './VideoSec.css';
 function VideoSec() {
   return (
-      <div className='videosec' id='videosec'>
+      <div className='videosec' id='vdo'>
           <h1>
             INVITATION
           </h1>

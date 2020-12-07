@@ -9,6 +9,16 @@ function Navbar() {
   const handleClick = () => setClick(!click);
   const closeMobileMenu = () => setClick(false);
 
+  function scrollto_div(id){
+    var p = document.getElementById(id).offsetTop - 80;
+    window.scrollTo({
+      top: p,
+      behavior: 'smooth',
+    });
+
+    setClick(false);
+  }
+
   const showButton = () => {
     if (window.innerWidth <= 960) {
       setButton(false);
@@ -43,17 +53,16 @@ function Navbar() {
           <ul className={ click ? 'nav-menu active' : 'nav-menu'}>
 
             <li className='nav-item'>
-              <a href='#banner' className='nav-links' 
-                onClick={closeMobileMenu}>
+              <a className='nav-links' 
+                onClick={()=>scrollto_div('banner')}>
                 Home
               </a>
             </li>
 
             <li className='nav-item'>
               <a
-                href='#shop'
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={()=>scrollto_div('functions')}
               >
                 Functions
               </a>
@@ -61,16 +70,15 @@ function Navbar() {
 
             <li className='nav-item'>
               <a
-                href='#services'
                 className='nav-links'
-                onClick={closeMobileMenu}
+                onClick={()=>scrollto_div('vdo')}
               >
                 Video Message
               </a>
             </li>
 
             <li className='nav-item'>
-              <a href='#contact' className='nav-links' onClick={closeMobileMenu}>
+              <a className='nav-links' onClick={()=>scrollto_div('gallery')}>
                 Gallery
               </a>
             </li>
