@@ -3,16 +3,14 @@ import  './RSVP.css';
 function RSVP() {
   return (
       <div className='rsvp' id='rsvp'>
-          <h1>Let us know if you can make it</h1>
-          <div className='rsvp_form'>
-              <div className='res'>
-                  <ul>
-                      <li>acc</li>
-                      <li>ne</li>
-                  </ul>
-              </div>
-              <div className='form'>
-              </div>
+          <div className='rsvp-container'>
+            <div className='from-1'>
+                
+            </div>
+
+            <div className='from-2'>
+
+            </div>
           </div>
       </div>
   );
