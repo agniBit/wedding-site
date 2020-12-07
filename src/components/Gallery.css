@@ -14,10 +14,10 @@
   
   /* Create four equal columns that sits next to each other */
   .column {
-    -ms-flex: 25%;
-    flex: 25%;
-    max-width: 25%;
-    /* padding: 0 4px; */
+    -ms-flex: 23%;
+    flex: 23%;
+    max-width: 23%;
+    padding: 0 4px;
   }
   
   .column img {

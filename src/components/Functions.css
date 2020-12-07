@@ -1,5 +1,6 @@
-.functions{
-    text-align: center;
+.fun_ul{
+    display: flex;
+    justify-content: center;
 }
 .fun_container{
     padding: 20px;
